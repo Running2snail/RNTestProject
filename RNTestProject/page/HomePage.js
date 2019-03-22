@@ -29,9 +29,9 @@ export default class HomePage extends Component<Props> {
                 }}
             />
                 <Button
-                    title={'Go to Page2'}
+                    title={'Go to FlatListDemo'}
                     onPress={()=>{
-                        navigation.navigate('Page2')
+                        navigation.navigate('FlatListDemo')
                     }}
                 />
                 <Button

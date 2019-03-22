@@ -9,6 +9,7 @@ import Page2 from '../page/Page2'
 import Page3 from '../page/Page3'
 import Page4 from '../page/Page4'
 import Page5 from '../page/Page5'
+import FlatListDemo from '../page/FlatListDemo'
 
 const AppTopNavigator = createMaterialTopTabNavigator({
         Page1:{
@@ -157,6 +158,12 @@ export const AppStackNavigator=createStackNavigator({
         screen: Page4,
         navigationOptions:{
             title:'Page4'
+        }
+    },
+    FlatListDemo: {
+        screen: FlatListDemo,
+        navigationOptions:{
+            title:'FlatListDemo'
         }
     },
     Bottom:{
